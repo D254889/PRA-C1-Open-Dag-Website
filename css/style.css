@@ -1,0 +1,122 @@
+nav a{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: #e2d9e1;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial;
+}
+nav{
+    border: solid 2px;
+    padding: 20px;
+    padding-left: 10px;
+    border-right: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 21, 21);
+}
+
+
+body{
+    background-image: url('../img/curiogebouw.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+  .IndexText{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 2px solid #060606;
+    border-radius: 10px;
+    background-color: rgb(44, 37, 37);
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  .Vakken{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 2px solid #060606;
+    border-radius: 10px;
+    background-color: rgb(44, 37, 37);
+    padding: 10px;
+    padding-left: 1px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .RoosterPagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  .Roosterinfo p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Roosterinfo img{
+    margin-top: 1%;
+    border-radius: 35px;
+  }
+
+  .Blokkenfoto{
+    text-align: center;
+  }
+  .Blokkenfoto img{
+    margin-top: 40px;
+    border-radius: 15px;
+  }
+
+  .Vakantiefoto{
+    text-align: center;
+  }
+  .Vakantiefoto img{
+    margin-top: 40px;
+    border-radius: 15px;
+  }
+  .Huiswerktext{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 2px solid #060606;
+    border-radius: 10px;
+    background-color: rgb(44, 37, 37);
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+
+  .parentfoto {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 2px solid #060606;
+    border-radius: 10px;
+    background-color: rgb(44, 37, 37);
+    }
+  
+  footer{
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 97.3%;
+    margin: 0 auto;
+    background-color:rgb(24, 21, 21);
+    padding: 20px;
+}
